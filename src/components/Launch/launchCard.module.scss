@@ -1,0 +1,31 @@
+@import 'grid';
+
+.root {
+  border-radius: 5px;
+  background: rgba(255,255,255,0.85);
+  margin-bottom: 10px;
+  min-height: 40px;
+
+  align-items: center;
+
+  color: #555;
+  font-size: 0.9em;
+  font-weight: 700;
+
+  img {
+    max-width: 35px;
+  }
+
+  svg {
+    cursor: pointer;
+
+    path {
+      fill: #13a4dd
+    }
+  }
+
+  span {
+    padding: 5px;
+  }
+
+}
